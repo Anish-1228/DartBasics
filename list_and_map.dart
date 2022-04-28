@@ -39,8 +39,7 @@ main() {
       3,
       4,
     ],
-    1: 2,
-    [123, 456]: "sae"
+    1: 2
   };
 
   var dob = user["date_of_birth"];
