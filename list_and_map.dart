@@ -17,9 +17,24 @@ main() {
 
   List<String> cars = ["tata", "ferrari"];
   //
-  Map user = {
+
+  //Key-Value Pair
+  //Collection of key value pair
+
+  Map<dynamic, dynamic> user = {
     "id": 234,
     "name": "Ram Prasad",
-    "date of birth": "1997",
+    "date_of_birth": "1997",
+    "salary": [
+      1,
+      2,
+      3,
+      4,
+    ],
+    1: 2,
+    [123, 456]: "sae"
   };
+
+  var dob = user["date_of_birth"];
+  print(dob);
 }
