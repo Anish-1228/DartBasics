@@ -18,6 +18,14 @@ main() {
   List<String> cars = ["tata", "ferrari"];
   //
 
+  List<int> roll = [12, 3];
+
+  // // roll = roll[1];
+  // roll = 13;
+
+  var value = roll[1];
+
+  print(value);
   //Key-Value Pair
   //Collection of key value pair
 
