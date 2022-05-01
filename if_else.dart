@@ -26,4 +26,26 @@ main() {
   if (day != " Saturday") {
     print("Not Holiday");
   }
+
+
+  //Switch_Case
+  //VAlue Cheak
+  
+  switch(day){
+    case"sunday":
+    print("Hello Sunday");
+    break;
+    case"monday":
+    print("Not Hello Monday");
+    break;
+
+  default:
+  print("This is default");
+  
+  
+  }
+
+
+
+
 }
