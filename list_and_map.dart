@@ -18,7 +18,7 @@ main() {
   List<String> cars = ["tata", "ferrari"];
   //
 
-  List<int> roll = [12,13];
+  List<int> roll = [12, 13];
 
   // // roll = roll[1];
   // roll = 13;
@@ -45,10 +45,6 @@ main() {
   var dob = user["date_of_birth"];
   print(dob);
 
-Set<int> noDuplicate= {1,2,31,3,4,5,3,1}
-print("noDuplicate");
-
-
-
-
+  Set<int> noDuplicate = {1, 2, 31, 3, 4, 5, 3, 1};
+  print("noDuplicate");
 }

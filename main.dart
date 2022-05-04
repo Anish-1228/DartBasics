@@ -1,3 +1,4 @@
 main() {
-  print("Hello class");
+  print("hello class");
+  
 }
