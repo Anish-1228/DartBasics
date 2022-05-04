@@ -30,3 +30,10 @@ num simpleInterest(
   var si = (principal * rate * time) / 100;
   return si;
 }
+
+
+
+
+
+
+
